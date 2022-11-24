@@ -1,0 +1,9 @@
+                                       Name|        Average|            Min|            Max|           Call
+------------------------------------------------------------------------------------------------------------------------
+               void __cdecl Update(void)|         8.80us|         0.00us|   7470677.70us|         279205
+void __cdecl SendUnicast(struct stSession *,class Packet *)|         0.30us|         0.00us|      4542.60us|         873226
+void __cdecl SectorGetAround(int,int,struct st_SECTOR_AROUND *)|         0.10us|         0.00us|       122.70us|          58310
+bool __cdecl SectorUpdateCharacter(struct st_CHARACTER *)|         0.30us|         0.20us|      3974.10us|        2657648
+void __cdecl netPacketProc_MoveStart(struct stSession *,class Packet *)|       581.80us|         6.50us|   7536372.40us|           6456
+void __cdecl MakePacketMoveStart(class Packet *,unsigned int,unsigned char,short,short)|         0.10us|         0.00us|       241.40us|          38877
+void __cdecl SendPacket_SectorAround(class Packet *,struct stSession *,bool)|        16.70us|         3.00us|      4707.50us|          24365

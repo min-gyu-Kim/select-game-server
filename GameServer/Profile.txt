@@ -1,0 +1,16 @@
+                                       Name|        Average|            Min|            Max|           Call
+------------------------------------------------------------------------------------------------------------------------
+       void __cdecl ProcessNetwork(void)|         1.90us|         1.50us|      7132.70us|       34001159
+               void __cdecl Update(void)|        68.20us|         0.10us|      7483.70us|           1825
+void __cdecl SendUnicast(struct stSession *,class Packet *)|         0.20us|         0.10us|         0.50us|            209
+void __cdecl SectorGetAround(int,int,struct st_SECTOR_AROUND *)|         0.10us|         0.00us|         0.50us|            308
+void __cdecl SendProcess(const unsigned int &)|        35.40us|        19.30us|        86.40us|            146
+void __cdecl RecvMessage(const unsigned int &)|        17.20us|        12.30us|       176.40us|            127
+void __cdecl netPacketProc_MoveStart(struct stSession *,class Packet *)|         8.70us|         7.20us|        14.70us|             65
+bool __cdecl SectorUpdateCharacter(struct st_CHARACTER *)|         4.60us|         0.60us|       360.60us|            821
+void __cdecl MakePacketMoveStart(class Packet *,unsigned int,unsigned char,short,short)|         0.20us|         0.10us|         0.50us|            100
+void __cdecl SendPacket_SectorAround(class Packet *,struct stSession *,bool)|         2.20us|         1.50us|         3.00us|            189
+void __cdecl netPacketProc_MoveStop(struct stSession *,class Packet *)|         7.70us|         6.20us|        12.70us|             41
+void __cdecl netPacketProc_Attack1(struct stSession *,class Packet *)|         6.00us|         3.40us|         7.90us|              4
+void __cdecl netPacketProc_Attack3(struct stSession *,class Packet *)|         6.20us|         3.50us|         8.90us|             33
+void __cdecl netPacketProc_Attack2(struct stSession *,class Packet *)|         7.10us|         3.70us|         8.70us|             10
